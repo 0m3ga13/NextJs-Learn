@@ -1,7 +1,9 @@
+import CardList from '../components/CardList'
+
 export default function Home() {
   return (
     <main>
-      <h1 className='header'>Hello Fellow Qubys</h1>
+    <CardList/>
     </main>
   )
 }
